@@ -1,0 +1,24 @@
+/*
+1 - Soma Simples : Escreva um programa em Java que leia dois números inteiros do usuário e exiba a soma deles.
+*/
+
+import java.util.Scanner;
+
+public class Operadores {
+   public static void main (String [] args) {
+
+    Scanner Teclado = new Scanner (System.in);
+    int N1, N2, N3 ;
+
+    System.out.print ("Digite o primeiro número: ");
+    N1 = Teclado.nextInt();
+
+    System.out.print ("Digite o segundo número: ");
+    N2 = Teclado.nextInt();
+
+    N3 = N1 + N2;
+
+    System.out.print ("A soma dos dos números é: "+ N3)
+}
+
+  }
